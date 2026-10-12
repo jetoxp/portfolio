@@ -3,7 +3,7 @@
 **Date:** 2026-10-12
 **Role:** Systems developer
 **Technologies:** Roblox Studio, Luau, DataStoreService, Rojo, selene, stylua
-**Links:** [GitHub repo](TODO) | [Demo video](TODO) | [Live place](TODO)
+**Links:** [GitHub repo](https://github.com/jetoxp/inventory-kit) | [Demo video](TODO) | [Live place](TODO)
 
 ## Overview
 
