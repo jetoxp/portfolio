@@ -74,16 +74,19 @@ server's copy. The UI renders the state the server pushes and never computes its
 
 Measured on this codebase, and only what is measured:
 
-- **96 automated tests across 5 suites**, runnable with `luau tests/run.luau` — no Studio, no
-  dependency manager. 3804 lines total (2359 source, 1445 tests).
+- **103 automated tests across 5 suites**, runnable with `luau tests/run.luau` — no Studio, no
+  dependency manager. 3944 lines total (2378 source, 1566 tests).
 - **0 errors, 0 warnings** from `selene` (`std = "roblox"`); `stylua --check` clean.
-- **18 commits**, one per phase plus the fixes each phase's verification produced.
+- **19 commits**, one per phase plus the fixes each phase's verification produced.
 - Verified in a live Studio session, not on paper:
   - a real click on a slot → the client sends `equip` → the server equips → the UI updates;
   - the equipped slot **survived a full restart**, coming back from the DataStore;
   - three malformed payloads (`unknown_action`, an extra field, a string in a numeric slot)
     were rejected with nothing changed in the inventory;
-  - 60 `move` intents fired in a single frame produced **exactly one** accepted request.
+  - 60 `move` intents fired in a single frame produced **exactly one** accepted request;
+  - a live foreign lock made the server **kick the player with the configured message**,
+    leaving both the data and the other server's claim untouched;
+  - the drop button took a stack from 12 to 11 through the full intent round trip.
 
 **Not measured, and marked as such:** concurrent players, load time under production
 traffic, and behaviour at the 200-slot ceiling. The numbers above are the ones the code
