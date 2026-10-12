@@ -22,9 +22,9 @@
 
 ## Summary
 
-- **Total projects:** 1 documented, 3 to document
+- **Total projects:** 2 — 1 completed, 1 in progress
 - **Completed:** 1
-- **In progress:** 3
+- **In progress:** 1
 - **Technologies:** Luau, Roblox Studio, Rojo, selene, stylua, git
 - **Primary focus:** Roblox systems (scripting, data persistence, UI, tooling)
 
@@ -35,15 +35,13 @@
 | Date | Project | Role | Tech | Status | Links |
 |------|---------|------|------|--------|-------|
 | 2026-10-12 | [InventoryKit](01_Roblox/2026-10-12_InventoryKit/README.md) | Systems developer | Luau, DataStore, Rojo (MIT) | Completed | [README](01_Roblox/2026-10-12_InventoryKit/README.md) · [Repo](https://github.com/jetoxp/inventory-kit) · [Video](TODO) |
-| [2026-10-11] | Salvar o Matar | Scripter & builder | Luau, Studio | In progress | [] |
+| 2026-10-11 | Salvar o Matar | Scripter & builder | Luau, Studio | In progress | [TODO: folder + repo] |
 
 ---
 
 ## Other / Archived
 
-| Date | Project | Role | Tech | Status | Links |
-|------|---------|------|------|--------|-------|
-| — | — | — | — | — | — |
+Nothing archived yet.
 
 ---
 
@@ -51,10 +49,10 @@
 
 | Skill | Proven by |
 |-------|-----------|
-| Luau / Roblox scripting | InventoryKit (2,329 lines of source) |
+| Luau / Roblox scripting | InventoryKit: the item model, the container, and the save format |
 | Data persistence | InventoryKit: versioned schema, session locking with heartbeat, retries |
 | Server-authoritative design | InventoryKit: payload schemas + rate limiter, both tested |
-| Testing without an engine | InventoryKit: 95 tests in 5 suites, `luau tests/run.luau` |
+| Testing without an engine | InventoryKit: 103 tests in 5 suites, `luau tests/run.luau` |
 | Tooling / reproducible builds | Rojo + selene + stylua + git, one project file |
 | UI | InventoryKit: pure view model + renderer |
 
