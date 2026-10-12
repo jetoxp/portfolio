@@ -34,7 +34,7 @@
 
 | Date | Project | Role | Tech | Status | Links |
 |------|---------|------|------|--------|-------|
-| 2026-10-12 | [InventoryKit](01_Roblox/2026-10-12_InventoryKit/README.md) | Systems developer | Luau, DataStore, Rojo | Completed | [README](01_Roblox/2026-10-12_InventoryKit/README.md) · [Repo](https://github.com/jetoxp/inventory-kit) · [Video](TODO) |
+| 2026-10-12 | [InventoryKit](01_Roblox/2026-10-12_InventoryKit/README.md) | Systems developer | Luau, DataStore, Rojo (MIT) | Completed | [README](01_Roblox/2026-10-12_InventoryKit/README.md) · [Repo](https://github.com/jetoxp/inventory-kit) · [Video](TODO) |
 | [TODO: date] | Salvar o Matar | Scripter & builder | Luau, Studio | In progress | [TODO: folder + repo] |
 | [TODO: date] | SubnauticaStages | Scripter | Luau, Rojo | In progress | [TODO: folder + repo] |
 | [TODO: date] | Deathroll | Scripter | Luau, Rojo | In progress | [TODO: folder + repo] |

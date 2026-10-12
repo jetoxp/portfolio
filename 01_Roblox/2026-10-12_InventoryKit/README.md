@@ -116,7 +116,7 @@ live servers.
 
 Four stacks loaded from the DataStore, with the iron sword highlighted as equipped.
 
-[Watch demo video](TODO)
+[Watch demo video](TODO) · [How to record it](VIDEO_SCRIPT.md)
 
 Labels come from the catalogue's `displayName` — the client already receives the catalogue
 from ReplicatedStorage — and are scaled to fit the slot. `[TODO]` Real inventories pair the
