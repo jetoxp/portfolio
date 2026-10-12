@@ -77,7 +77,9 @@ Measured on this codebase, and only what is measured:
 - **103 automated tests across 5 suites**, runnable with `luau tests/run.luau` — no Studio, no
   dependency manager. 3944 lines total (2378 source, 1566 tests).
 - **0 errors, 0 warnings** from `selene` (`std = "roblox"`); `stylua --check` clean.
-- **19 commits**, one per phase plus the fixes each phase's verification produced.
+- **Commits follow the phases**: one per phase, plus the fixes each phase's verification
+  produced. The count is deliberately not quoted here — it ages every time the code moves,
+  and a stale figure in a results section is its own kind of false claim.
 - Verified in a live Studio session, not on paper:
   - a real click on a slot → the client sends `equip` → the server equips → the UI updates;
   - the equipped slot **survived a full restart**, coming back from the DataStore;
