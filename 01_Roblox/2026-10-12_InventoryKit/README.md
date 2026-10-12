@@ -91,8 +91,16 @@ itself produced.
 
 ## Media
 
-![Inventory UI](media/inventory_ui.png)
+![Inventory UI](media/inventory_ui.jpg)
+
+Four stacks loaded from the DataStore, with slot 3 highlighted as equipped — the state that
+survived a restart in the test above.
+
 [Watch demo video](TODO)
+
+`[TODO]` The labels are raw item ids and wrap awkwardly in a 54px slot ("POTION_HEALTH"
+breaks mid-word). Real inventories show an icon with the name on hover; the catalogue has no
+icon field yet, and that is a deliberate open question rather than an oversight.
 
 ## How to read the code
 
