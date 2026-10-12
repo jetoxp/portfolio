@@ -74,10 +74,10 @@ server's copy. The UI renders the state the server pushes and never computes its
 
 Measured on this codebase, and only what is measured:
 
-- **95 automated tests across 5 suites**, runnable with `luau tests/run.luau` — no Studio, no
-  dependency manager. 3,744 lines total (2,329 source, 1,415 tests).
+- **96 automated tests across 5 suites**, runnable with `luau tests/run.luau` — no Studio, no
+  dependency manager. 3804 lines total (2359 source, 1445 tests).
 - **0 errors, 0 warnings** from `selene` (`std = "roblox"`); `stylua --check` clean.
-- **15 commits**, one per phase plus the fixes each phase's verification produced.
+- **18 commits**, one per phase plus the fixes each phase's verification produced.
 - Verified in a live Studio session, not on paper:
   - a real click on a slot → the client sends `equip` → the server equips → the UI updates;
   - the equipped slot **survived a full restart**, coming back from the DataStore;
