@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-10-12
 **Owner:** Jetox (github.com/jetoxp)
-**Contact:** [TODO: email] | [TODO: Discord] | [TODO: DevForum]
+**Contact:** [Jetoxpve@gmail.com email] | [Jetox. Discord] | [Jetoxsaurio  DevForum]
 **Purpose:** Central index of all development projects, demos, and case studies.
 
 ---
@@ -35,26 +35,7 @@
 | Date | Project | Role | Tech | Status | Links |
 |------|---------|------|------|--------|-------|
 | 2026-10-12 | [InventoryKit](01_Roblox/2026-10-12_InventoryKit/README.md) | Systems developer | Luau, DataStore, Rojo (MIT) | Completed | [README](01_Roblox/2026-10-12_InventoryKit/README.md) · [Repo](https://github.com/jetoxp/inventory-kit) · [Video](TODO) |
-| [TODO: date] | Salvar o Matar | Scripter & builder | Luau, Studio | In progress | [TODO: folder + repo] |
-| [TODO: date] | SubnauticaStages | Scripter | Luau, Rojo | In progress | [TODO: folder + repo] |
-| [TODO: date] | Deathroll | Scripter | Luau, Rojo | In progress | [TODO: folder + repo] |
-| [TODO: date] | midas-roblox-library | Author | Luau, Rojo | In progress | [Repo](https://github.com/jetoxp/midas-roblox-library) |
-
----
-
-## Web Projects
-
-| Date | Project | Role | Tech | Status | Links |
-|------|---------|------|------|--------|-------|
-| [TODO] | [TODO: is this real or a placeholder?] | | | | |
-
----
-
-## Minecraft Projects
-
-| Date | Project | Role | Tech | Status | Links |
-|------|---------|------|------|--------|-------|
-| [TODO] | [TODO: is this real or a placeholder?] | | | | |
+| [2026-10-11] | Salvar o Matar | Scripter & builder | Luau, Studio | In progress | [] |
 
 ---
 
@@ -82,6 +63,4 @@
 ## Changelog
 
 - **2026-10-08:** Created MasterIndex.md.
-- **2026-10-12:** Added InventoryKit with a measured case study. Replaced the sample rows
-  (Obby Map, Landing Page, Survival Server) with this account's actual projects; where a
-  date or status was unknown it now says `[TODO]` rather than a plausible guess.
+- **2026-10-12:** Added InventoryKit with a measured case study.
