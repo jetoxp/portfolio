@@ -2,7 +2,7 @@
 
 **Last updated:** 2026-10-12
 **Owner:** Jetox (github.com/jetoxp)
-**Contact:** [Jetoxpve@gmail.com email] | [Jetox. Discord] | [Jetoxsaurio  DevForum]
+**Contact:** jetoxpve@gmail.com | Discord `Jetox.` | DevForum [@Jetoxsaurio](https://devforum.roblox.com/u/Jetoxsaurio)
 **Purpose:** Central index of all development projects, demos, and case studies.
 
 ---
