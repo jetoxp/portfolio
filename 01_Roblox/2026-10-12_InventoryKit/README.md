@@ -90,9 +90,25 @@ Measured on this codebase, and only what is measured:
     leaving both the data and the other server's claim untouched;
   - the drop button took a stack from 12 to 11 through the full intent round trip.
 
-**Not measured, and marked as such:** concurrent players, load time under production
-traffic, and behaviour at the 200-slot ceiling. The numbers above are the ones the code
-itself produced.
+**Measured since, at the ceiling** (200 slots, every one occupied):
+
+- A real DataStore **load of a full 200-slot inventory took 1546 ms and 1947 ms** across two
+  sessions. Measured in Studio over a developer connection — that is a fact about this setup,
+  not a claim about a production server.
+- The payload serialises to **13,357 bytes (13 KB)** against DataStore's 4 MB per-key limit:
+  roughly 300x of headroom at the maximum inventory the kit allows.
+- The pure core, off-engine and reproducible with `luau tests/Bench.luau`: `toSave()` takes
+  0.073 ms and `fromSave()` 0.118 ms at 200 slots; 50 concurrent sessions load in 0.51 ms
+  total (0.010 ms each), and one tick that saves all 50 takes 0.28 ms.
+- The cost is entirely the network. The protocol itself is microseconds.
+
+Measuring the ceiling also found a UI limit worth reporting: at 200 slots the panel came out
+**2390 px tall inside a 252 px viewport**, so everything past the fifth slot was off-screen and
+unclickable. It now scrolls, verified by scrolling to slot 200.
+
+**Still not measured: real concurrent players.** The 50-session figure above is the protocol's
+cost against an in-memory store — a different claim, and one that says nothing about several
+live servers.
 
 ## Media
 
