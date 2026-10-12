@@ -93,14 +93,14 @@ itself produced.
 
 ![Inventory UI](media/inventory_ui.jpg)
 
-Four stacks loaded from the DataStore, with slot 3 highlighted as equipped — the state that
-survived a restart in the test above.
+Four stacks loaded from the DataStore, with the iron sword highlighted as equipped.
 
 [Watch demo video](TODO)
 
-`[TODO]` The labels are raw item ids and wrap awkwardly in a 54px slot ("POTION_HEALTH"
-breaks mid-word). Real inventories show an icon with the name on hover; the catalogue has no
-icon field yet, and that is a deliberate open question rather than an oversight.
+Labels come from the catalogue's `displayName` — the client already receives the catalogue
+from ReplicatedStorage — and are scaled to fit the slot. `[TODO]` Real inventories pair the
+name with an icon; the catalogue has no icon field yet, which is an open question rather than
+an oversight.
 
 ## How to read the code
 
