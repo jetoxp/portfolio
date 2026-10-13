@@ -3,7 +3,7 @@
 **Date:** 2026-10-13
 **Role:** Systems developer & author
 **Tech:** Luau, Rojo, selene, stylua · MIT
-**Status:** Completed · published
+**Status:** In progress · published
 **Repo:** [github.com/jetoxp/ability-kit](https://github.com/jetoxp/ability-kit)
 
 ---

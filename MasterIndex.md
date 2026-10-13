@@ -22,9 +22,9 @@
 
 ## Summary
 
-- **Total projects:** 3 — 2 completed, 1 in progress
-- **Completed:** 2
-- **In progress:** 1
+- **Total projects:** 3 — 1 completed, 2 in progress
+- **Completed:** 1
+- **In progress:** 2
 - **Technologies:** Luau, Roblox Studio, Rojo, selene, stylua, git
 - **Primary focus:** Roblox systems (scripting, data persistence, UI, tooling)
 
@@ -35,7 +35,7 @@
 | Date | Project | Role | Tech | Status | Links |
 |------|---------|------|------|--------|-------|
 | 2026-10-12 | [InventoryKit](01_Roblox/2026-10-12_InventoryKit/README.md) | Systems developer | Luau, DataStore, Rojo (MIT) | Completed | [README](01_Roblox/2026-10-12_InventoryKit/README.md) · [Repo](https://github.com/jetoxp/inventory-kit) · [Video](TODO) |
-| 2026-10-13 | [AbilityKit](01_Roblox/2026-10-13_AbilityKit/README.md) | Systems developer & author | Luau, Rojo (MIT) | Completed | [README](01_Roblox/2026-10-13_AbilityKit/README.md) · [Repo](https://github.com/jetoxp/ability-kit) · [Video](TODO) |
+| 2026-10-13 | [AbilityKit](01_Roblox/2026-10-13_AbilityKit/README.md) | Systems developer & author | Luau, Rojo (MIT) | In progress | [README](01_Roblox/2026-10-13_AbilityKit/README.md) · [Repo](https://github.com/jetoxp/ability-kit) · [Video](TODO) |
 | 2026-10-11 | Salvar o Matar | Scripter & builder | Luau, Studio | In progress | [TODO: folder + repo] |
 
 ---
