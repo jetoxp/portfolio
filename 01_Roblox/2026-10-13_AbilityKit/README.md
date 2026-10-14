@@ -124,6 +124,6 @@ Declared, not discovered:
 ## Links
 
 - Repository: https://github.com/jetoxp/ability-kit
-- Phase notes, in order, inside the repository (`PHASE_1.md` … `PHASE_7.md`): the working log,
+- Phase notes, in order, in the repository under `docs/phases/` (`PHASE_1.md` … `PHASE_7.md`): the log,
   including every bug and the correction it forced. `PHASE_7.md` is worth reading for the closing
   lesson alone — a phase that spent five playtests debugging its own measurement setup, and says so.
