@@ -53,6 +53,11 @@ population.
   payload carrying an extra field is refused, because "it only reads `slot`" stops being true the moment
   somebody adds a convenient field.
 
+![The HUD in a test place: four slots with their keybinds, and the mana bar above them](media/ability_hud.jpg)
+
+*The HUD, drawn from the snapshot by `HudPresenter` — a pure module with its own suite. The numbers on
+screen are decided by code that runs in a terminal; the renderer only assigns values to properties.*
+
 ## How it is verified
 
 The interesting part of this project is not the suite. **Eight test suites cover everything that decides, and they could not see the bugs that
