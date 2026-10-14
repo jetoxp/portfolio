@@ -80,7 +80,9 @@ So the verification is behavioural, observed in a live playtest rather than asse
 - a miss **spends mana, produces zero events, and writes zero lines to the Output**;
 - a miss leaves the caster at full health;
 - an activation spends the cost at the activation, so an interrupted cast is a paid cast;
-- a second activation is refused by the cooldown without charging again;
+- a second activation is refused by the cooldown without charging again, and the refusal **names
+  itself and its reason**: `[ability-kit] Jetoxsaurio asked for slot 1 and was refused: alreadyCasting`
+  and `... slot 3 ... abilityOnCooldown` — two slots, two reasons, one run;
 - death restores the pools, clears the cooldowns, and drops the effects attached to the character;
 - the HUD draws the four slots with their keybinds, its mana bar reads `0.82` against a snapshot of
   `82.74`, and activating moves the screen: the bar falls, a cast bar fills and disappears, and the
